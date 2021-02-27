@@ -14,7 +14,7 @@ Este proyecto tiene por objetivo mostrar las distintas herramientas de mi conoci
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (MIT) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Este proyecto está bajo la Licencia (MIT) - mira el archivo [LICENSE.md](https://github.com/lucasjara/WebPersonal/blob/main/LICENSE) para detalles
 
 ## Expresiones de Gratitud 🎁
 
