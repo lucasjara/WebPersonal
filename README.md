@@ -7,6 +7,8 @@ Este proyecto tiene por objetivo mostrar las distintas herramientas de mi conoci
 * [Laravel v8.29.0](https://github.com/laravel/laravel) - El framework web usado.
 * [PHP v8.0.1](https://www.php.net) - Lenguaje de Desarrollo usado.
 * [Composer v2.0.11](https://getcomposer.org) - Manejador de dependencias.
+* [NES.css v2.2.0](https://github.com/nostalgic-css/NES.css) - Estilo de fuente CSS.
+* [Boostrap v5.0.0](https://github.com/nostalgic-css/NES.css) - Framework Front End Web.
 
 ## Autores ✒️
 
