@@ -9,6 +9,8 @@ Este proyecto tiene por objetivo mostrar las distintas herramientas de mi conoci
 * [Composer v2.0.11](https://getcomposer.org) - Manejador de dependencias.
 * [NES.css v2.2.0](https://github.com/nostalgic-css/NES.css) - Estilo de fuente CSS.
 * [Boostrap v5.0.0](https://github.com/nostalgic-css/NES.css) - Framework Front End Web.
+* [Magnific Popup v1.1.0](https://github.com/nostalgic-css/NES.css) - Complemento JQuery Despliegue Animado.
+* [JQuery v3.6.0](https://github.com/jquery/jquery) - Libreria JS.
 
 ## Autores ✒️
 

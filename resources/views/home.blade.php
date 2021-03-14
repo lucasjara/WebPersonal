@@ -106,12 +106,25 @@
         </div>
     </div>
     <!-- Fin Modal Web -->
+    <style>
+        .video-play-btn {
+            position: absolute;
+            left: calc(50% - 61px);
+            top: calc(50% - 61px);
+            width: 122px;
+            height: 122px;
+            text-align: center;
+            padding-top: 35px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.16);
+        }
+    </style>
     <!-- Inicio Modal Movil -->
     <div class="modal" tabindex="-1" id="modalMovil">
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header bg-primary">
-                    <h5 class="modal-title">Seleccione para Visitar</h5>
+                    <h5 class="modal-title">Demostraciones Apps Moviles</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -119,19 +132,17 @@
                         <div class="col-6">
                             <div class="card mb-4 box-shadow">
                                 <h5 class="card-title">PokePixelArt</h5>
-                                <img class="card-img-top" style="height: 225px; width: 100%; display: block;" src="{{ asset('img/CapturaInfest.PNG') }}" data-holder-rendered="true">
+                                <img class="card-img-top" style="height: 300px; width: 100%; display: block;" src="{{ asset('img/CapturaPokePixelArt.PNG') }}" data-holder-rendered="true">
+                                <a href="https://www.youtube.com/watch?v=FPHiCnTiAng" class="video-play-btn video-popup modal-close">
+                                    <img src="{{ asset('img/solid-right-arrow.png') }}" alt="#"></a>
+                                </a>
                                 <div class="card-body">
-                                    <p class="card-text">Infest es un evento que busca darle a sus asistentes una experiencia única y enriquecedora en la ciudad de Temuco, todo esto a manos de los videojuegos.</p>
+                                    <p class="card-text">Biblioteca Pixel Art Pokémon Primera Generación.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-6">
-                            <div class="card mb-4 box-shadow">
-                                <img class="card-img-top" style="height: 225px; width: 100%; display: block;" src="{{ asset('img/CapturaSmartride.PNG') }}" data-holder-rendered="true">
-                                <div class="card-body">
-                                    <p class="card-text">Somos una empresa joven , dinámica y que da solución a la venta de Scooter y a la reparación de estos , pero antes que todo, somos Riders, amamos la velocidad.</p>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -140,5 +151,23 @@
     </div>
     <!-- Fin Modal Movil -->
 </body>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="{{ asset('css/magnific-popup.css') }}">
+<script src="{{ asset('js/jquery.magnific-popup.min.js') }}">
+</script>
+<script>
+    (function($) {
+        $('.video-popup').magnificPopup({
+            type: 'iframe',
+        });
+        $(".modal-close").on("click", function() {
+            $("#modalMovil").modal('hide');
+        });
+        $('#stickySidebar').stickySidebar({
+            topSpacing: 60,
+            bottomSpacing: 60
+        });
+    })(jQuery);
+</script>
 
 </html>
